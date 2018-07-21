@@ -11,6 +11,7 @@ public class Main {
 			a[i] = sc.nextInt();
 		}
 		// 3通りの絶対値を格納する配列Xを作成する
+		// ググった:「絶対値　Java」 https://eng-entrance.com/java-math-abs
 
 		int x[] = new int[3];
 		x[0] = Math.abs(a[0] - a[1]);

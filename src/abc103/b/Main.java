@@ -8,6 +8,7 @@ public class Main {
 		String s = sc.next();
 		String t = sc.next();
 		// Sを1回転させる。Tと一致したらYesしてbreak
+		// このあたりでコンソールが出なくなった https://teratail.com/questions/115775
 		String result = "No";
 		String s_turned = s;
 		for (int i = 0; i < s.length(); i++) {
